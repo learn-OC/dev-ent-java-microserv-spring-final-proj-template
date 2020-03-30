@@ -11,7 +11,6 @@ import java.util.Map;
 public class JDBCController {
     private final static String KEYFILEPATH = "./keyFile.key";
 
-
     @CrossOrigin
     @RequestMapping(value = "/printAllBooks", method = RequestMethod.GET)
     public String printAllBooks() {
